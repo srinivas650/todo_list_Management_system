@@ -1,0 +1,16 @@
+{% extends 'main.html' %}
+{% block content %}
+<center>
+    <button><a href="{% url 'create' %}">Create Task</a></button>
+    
+<h2>Below are your Tasks</h2>
+{% for task in tasks %}
+    <div class="task-container">
+        <h3>{{ task.tname }}</h3>
+        <p>{{ task.tdesc }}</p>
+         <button><a href="{% url 'update' task.id %}">Edit Task</a></button>
+          <button><a href="{% url 'delete' task.id %}">Delete Task</a></button>
+    </div>
+{% endfor %}
+</center>
+{% endblock content %}
