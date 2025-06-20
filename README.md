@@ -22,20 +22,14 @@ A full-stack web application built with Django that allows users to manage their
 | Layer         | Technology           |
 |---------------|----------------------|
 | Backend       | Python, Django       |
-| Frontend      | HTML, CSS, Bootstrap |
+| Frontend      | HTML, CSS,Javascript |
 | Database      | SQLite               |
 | Auth System   | Django Auth          |
 | Dev Tools     | VS Code, Git, GitHub |
 
 ---
 
-## 📸 Screenshots
 
-> *(Add your own screenshots below by dragging .png/.jpg files into the repo)*
-
-| Home Page | Task List |
-|-----------|-----------|
-| ![](screenshots/home.png) | ![](screenshots/tasks.png) |
 
 ---
 
